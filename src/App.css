@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+.image{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 4px;
+  margin-left: 40px;
+  color:#7B2869;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input{
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  width: 25%;
+  margin-left: 40px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button{
+  background-color: #EB455F;
+width: 100px;
+  padding: 12px;
+  border-radius: 20px;
+  margin-left: 10px;
+  border: none;
+  color: #fff;
+  font-family: 'Pridi', serif;
+}
+.container{
+  margin-bottom: 20px;
+  width: 35%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 40px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(225, 215, 198, 0.5);
 }
-
-.App-link {
-  color: #61dafb;
+.name{
+  color: #7B2869;
+  font-size: 45px;
+  font-family: 'Annie Use Your Telescope', cursive;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info{
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 20px;
 }
