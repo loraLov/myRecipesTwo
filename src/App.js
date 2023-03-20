@@ -37,8 +37,8 @@ function App() {
           <button>Search</button>
         </form>
       </div>
-      {recipes.map ((element, id)=>(
-        <RecipesResult key={id} name={element.recipe.label} picture={element.recipe.image} calories={element.recipe.calories} ingredients={element.recipe.ingredientLines}/>
+      {recipes.map ((element, index)=>(
+        <RecipesResult key={index} name={element.recipe.label} picture={element.recipe.image} calories={element.recipe.calories} ingredients={element.recipe.ingredientLines}/>
       ))}
     </div>
   );
